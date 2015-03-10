@@ -1,0 +1,113 @@
+.planet{
+    position: absolute;
+    border-radius: 50%;
+}
+body{
+    background-color: black;
+}
+
+#container{
+    z-index: -10;
+}
+
+#inputs_bar{
+    z-index: 1;
+}
+
+#earth{ 
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    height: 100px;
+    left: 400px;
+    background: url(images/earth.jpg);
+    background-size: 500% 100%;
+    animation-name: rotate;
+    animation-duration: 800s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 800s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+}
+#moon{
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    height: 100px;
+    left: 600px;
+    background: url(images/moon.jpg);
+    background-size: 500% 100%;
+    animation-name: rotate;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 100s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+}
+#sun{
+    position: absolute;
+	width:100px;
+	top:50px;
+	height:100px;
+	left:200px;
+	background: url(images/sun.jpg);
+    background-size: 500% 100%;
+    animation-name: rotate;
+    animation-duration: 1000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1000s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@keyframes rotate {
+   from { background-position-x: 100%; }
+   to { background-position-x: 500%; }
+ }
+
+ @-webkit-keyframes rotate{
+    from{ background-position-x:100%;}
+    to{background-position-x:500%; }
+     }
+ 
+
+ input[type="range"]{
+    -webkit-appearance:none;
+    background-image: url(images/bar.png);
+    background-color: transparent;
+    background-repeat: repeat-x;
+    margin-right: 5%;
+    margin-left: 5%;
+ }
+
+
+ .sun::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 15px;
+    height: 40px;
+    border:none;
+   background: url(images/sun.jpg);
+ }
+
+.earth::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 15px;
+    height: 40px;
+    border:none;
+    background: url(images/earth.jpg);
+ }
+  .moon::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 15px;
+    height: 40px;
+    border:none;
+    background: url(images/moon.jpg);
+ }

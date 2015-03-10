@@ -1,0 +1,301 @@
+
+
+.slide{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	border: solid 2px white;
+}
+
+#start{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+	top: 40%;
+}
+#starting{
+	width: 100px;
+	height: 100px;
+	color: white;
+	border-radius: 15px;
+	border:solid 1px white;
+	background-color: black;
+}
+#starting_1{
+	font-size: 40px;
+}
+#end{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+	top: 60%;
+}
+#ending{
+	width: 100px;
+	height: 100px;
+	color: white;
+	border-radius: 15px;
+	border:solid 1px white;
+	background-color: black;
+}
+#ending_1{
+	font-size: 40px;
+}
+#begining_text{
+	width: 35%;
+	position: relative;
+	margin: auto;
+	top: 35%;
+	
+
+}
+#begining_text p{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 0.3em;
+
+}
+
+.boldtext{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 2.5em;
+	color: white;
+	text-align: center;
+}
+#set_out{
+	background-image: url(typewriter.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#set_out_1{
+	position: relative;
+	width: 85%;
+	margin: auto;
+	top: 45%;
+	font-size: 2em;
+}
+#set_out_2{
+	position: relative;
+	width: 60%;
+	margin: auto;
+	top: 50%;
+	font-size: 1.3em;
+}
+
+#brain{
+	background-image: url(brain.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+
+
+}
+#brain_1{
+	position: relative;
+	width: 80%;
+	margin: auto;
+	top: 45%;
+	font-size: 2em;
+}
+#brain_2{
+	position: relative;
+	width: 60%;
+	margin: auto;
+	top: 80%;
+	font-size: 1.8em;
+}
+#self{
+	background-image: url(self.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+#self_1{
+	width: 600px;
+	margin: auto;
+	position: relative;
+	top: 45%;
+}
+#international_bg{
+	height: 100%;
+	width: 100%;
+	margin-top: 10%;
+	background-image: url(map.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	-webkit-animation-name: animatedBackground;
+  -moz-animation-name: animatedBackground;
+  -webkit-animation-duration: 40s;
+  -moz-animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes animatedBackground {
+  0% { background-position: 240% 0; }
+  50% { background-position: 0 0; }
+  100%{background-position: -100% 0;}
+}
+@-moz-keyframes animatedBackground {
+  0% { background-position: 240% 0; }
+  50% { background-position: 0 0; }
+  100%{background-position: -100% 0;}
+}
+
+#inter_1{
+	width: 600px;
+	margin: auto;
+	position: relative;
+	top: -65%;
+}
+#inter_1 p{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 0.3em;
+}
+#graduation{
+	background-image: url(grad.gif);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
+#grad_1{
+	width: 600px;
+	margin: auto;
+	position: relative;
+	top: 45%;
+}
+#worry{
+	background-image: url(drum.gif);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
+
+#worry_1{
+	width: 600px;
+	margin: auto;
+	position: relative;
+	top: 45%;
+}
+
+#worry_1 p{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 0.3em;
+}
+#history{
+	background-image: url(flash.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
+
+#hist_1{
+	width: 80%;
+	margin: auto;
+	position: relative;
+	top: 45%;
+	font-size: 2em;
+}
+#projects{
+	background-image: url(desk.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+}
+
+
+#projects_1{
+	width: 80%;
+	margin: auto;
+	position: relative;
+	top: 45%;
+}
+#diagram{
+	background-image: url(conception.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
+
+#diagram_1{
+	width: 80%;
+	margin: auto;
+	position: relative;
+	top: 80%;
+}
+#motion_bg{
+	height: 100%;
+}
+
+
+#motion_1{
+	width: 80%;
+	margin: auto;
+	position: relative;
+	top: -55%;
+}
+#motion_1 p{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 0.3em;
+}
+#philosophy{
+	background-image: url(delight.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+}
+
+
+#philo_1{
+	width: 80%;
+	margin: auto;
+	position: relative;
+	top: 37.5%;
+}
+
+#philo_2{
+	width: 40%;
+	margin: auto;
+	position: relative;
+	top: 40%;
+	font-style: italic;
+	font-size: 2.5em;
+}
+#philo_2 p{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 0.3em;
+}
+#wrapup_1{
+	width: 80%;
+	margin: auto;
+	position: relative;
+	top: 45%;
+}
+#wrapup_1 p{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 0.3em;
+}

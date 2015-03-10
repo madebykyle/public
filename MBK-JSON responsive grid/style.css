@@ -1,0 +1,617 @@
+body{
+margin: 0 auto;
+}
+
+#header{
+width: 100%;
+height: 200px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+#logo{
+	width:250px;
+	height: 150px;
+	position: relative;
+	background: url('logo.png');
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+
+}
+#construction{
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	float: left;
+	background-color: black;
+	opacity: 0.75;
+	position: absolute;
+	
+}
+#construction_text{
+	font-family: "NobelBold";
+	font-size: 3em;
+	color: #eee;
+	margin-top: 10%;
+}
+#construction_text_2{
+	font-family: "AvenirLight";
+	font-size: 1.3em;
+	color: #eee;
+	margin-bottom: 20px;
+}
+#construction_text_3{
+	font-family: "AvenirLight";
+	font-size: 0.8em;
+	color: #eee;
+	border-top: 1px solid #eee;
+	width: 50%;
+	padding: 20px;
+}
+#top_menu{
+	font-family: "AvenirBook";
+	font-weight: 700;
+	font-size: 18px;
+	height:80px;
+	position: relative;
+	float: right;
+}
+
+
+.drop_menu {
+	float: right;
+	padding:0;
+	margin-right: 30px;
+	margin:0;
+	list-style-type:none;
+	
+}
+.drop_menu li { float:left; }
+.drop_menu li a {
+	padding:9px 20px;
+	display:block;
+	color:black;
+	text-decoration:none;
+}
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li:hover { 
+	position:relative; 
+ }
+.drop_menu li:hover ul {
+	left:0px;
+	top:35px;
+	padding:0px;
+}
+.drop_menu ul li:hover{
+	background-color: #a9ddf3;
+}
+.drop_menu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+}
+#city_left{
+	background-image: url('footer/city_left.png');
+	margin-top: -100px;
+	left:5%;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+
+}
+#city_right{
+	background-image: url('footer/city_right.png');
+	margin-top: -100px;
+	right:5%;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+}
+
+@media screen and (min-width:1425px){
+	#wrapper{
+		position: relative;
+		top: 200px;
+		width: 1425px;
+		margin-left: -81px;
+		height: 100%;
+		display: inline-block;	
+		clear: both;
+
+	}
+	iframe{
+	-webkit-transform:scale(2);
+	-moz-transform-scale(2);
+	transform:scale(2);
+	width: 100%;
+	height: 100%;
+}
+.projects_main{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	-ms-transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 81px;
+	opacity: 0.5;
+	overflow: hidden;
+	display: inherit;
+}
+	#grid{
+		position: relative;
+		clear: both;
+		display: inherit;
+	}
+	.row{
+		width:100%;
+		position:relative;
+		float: left;
+		clear: both;
+	}
+	#row1{
+		top: 0px;
+		left: 140px;
+		z-index: 1;
+	}
+	#row2{
+		top: -58px;
+		
+		z-index: 2;
+	}
+	#row3{
+		top:-116px;
+		left:140px; 
+		z-index: 3;
+	}
+	#row4{
+		top:-174px;
+		z-index: 4;
+	}
+	#row5{
+		top:-232px;
+		left:140px; 
+		z-index: 5;
+	}
+}
+
+@media screen and (min-width:1200px) and (max-width: 1424px){
+	#wrapper{
+		position: relative;
+		top: 200px;
+		width: 1065px;
+		margin-left: -62px;
+		height: 100%;
+		display: inline-block;	
+		clear: both;
+
+	}
+.projects_main{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	-ms-transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 62px;
+	opacity: 0.5;
+	overflow: hidden;
+	display: inherit;
+}
+	#grid{
+		position: relative;
+		clear: both;
+		display: inherit;
+	}
+	.row{
+		width:100%;
+		position:relative;
+		float: left;
+		clear: both;
+	}
+	#row1{
+		top: 0px;
+		left:106px;
+		z-index: 1;
+	}
+	#row2{
+		top: -43px; 
+		z-index: 2;
+	}
+	#row3{
+		top:-86px;
+		left:106px;
+		z-index: 3;
+	}
+	#row4{
+		top:-129px;
+		z-index: 4;
+	}
+	#row5{
+		top:-172px;
+		left:106px;
+		z-index: 5;
+	}
+}
+@media screen and (min-width:961px) and (max-width: 1200px){
+	#wrapper{
+		position: relative;
+		top: 200px;
+		width: 855px;
+		height: 100%;
+			margin-left: -81px;
+		display: inline-block;	
+		clear: both;
+
+	}
+iframe{
+	-webkit-transform:scale(2);
+	-moz-transform-scale(2);
+	transform:scale(2);
+	width: 100%;
+	height: 100%;
+}
+.projects_main{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	-ms-transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 81px;
+	opacity: 0.5;
+	overflow: hidden;
+	display: inherit;
+}
+
+	#grid{
+		position: relative;
+		clear: both;
+		display: inherit;
+	}
+	.row{
+		width:100%;
+		position:relative;
+		float: left;
+		clear: both;
+	}
+	#row1{
+		top: 0px;
+		left: 140px;
+		z-index: 1;
+	}
+	#row2{
+		top: -58px;
+		
+		z-index: 2;
+	}
+	#row3{
+		top:-116px;
+		left:140px; 
+		z-index: 3;
+	}
+	#row4{
+		top:-174px;
+		
+		z-index: 4;
+	}
+	#row5{
+		top:-232px;
+		left:140px; 
+		z-index: 5;
+	}
+	#row6{
+		top: -290px;
+		z-index: 6;
+	}
+	#row7{
+		top: -348px;
+		left: 140px;
+		z-index: 7;
+	}
+}
+
+@media screen and (min-width:640px) and (max-width: 961px){
+	#wrapper{
+		position: relative;
+		top: 200px;
+		width: 639px;
+		height: 100%;
+		margin-left: -62px;
+		display: inline-block;	
+		clear: both;
+
+	}
+.projects_main{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	-ms-transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 62px;
+	opacity: 0.5;
+	overflow: hidden;
+	display: inherit;
+}
+
+	#grid{
+		position: relative;
+		clear: both;
+		display: inherit;
+	}
+	.row{
+		width:100%;
+		position:relative;
+		float: left;
+		clear: both;
+	}
+	#row1{
+		top: 0px;
+		left:106px;
+		z-index: 1;
+	}
+	#row2{
+		top: -43px; 
+		z-index: 2;
+	}
+	#row3{
+		top:-86px;
+		left:106px;
+		z-index: 3;
+	}
+	#row4{
+		top:-129px;
+		z-index: 4;
+	}
+	#row5{
+		top:-172px;
+		left:106px;
+		z-index: 5;
+	}
+		#row6{
+		top:-215px;
+		z-index: 6;
+	}
+	#row7{
+		top:-258px;
+		left:106px;
+		z-index: 7;
+	}
+
+}
+
+@media screen and (max-width:640px){
+	#wrapper{
+		position: relative;
+		top: 200px;
+		width: 426px;
+		height: 100%;
+		margin-left: -62px;
+		display: inline-block;	
+		clear: both;
+
+	}
+	#overview_text{
+	}
+	#text{}
+
+	#grid{
+		position: relative;
+		clear: both;
+		display: inherit;
+	}
+	.projects_main{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	-ms-transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 62px;
+	opacity: 0.5;
+	overflow: hidden;
+	display: inherit;
+}
+
+	.row{
+		width:100%;
+		position:relative;
+		float: left;
+		clear: both;
+	}
+	#row1{
+		top: 0px;
+		left:106px;
+		z-index: 1;
+	}
+	#row2{
+		top: -43px; 
+		z-index: 2;
+	}
+	#row3{
+		top:-86px;
+		left:106px;
+		z-index: 3;
+	}
+	#row4{
+		top:-129px;
+		z-index: 4;
+	}
+	#row5{
+		top:-172px;
+		left:106px;
+		z-index: 5;
+	}
+	#row6{
+		top:-215px;
+		z-index: 6;
+	}
+	#row7{
+		top:-258px;
+		left:106px;
+		z-index: 7;
+	}
+
+	#city_left{
+	background-image: url('footer/city_left.png');
+	margin-top: -100px;
+	left:-20px;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+
+	}
+	#city_right{
+	background-image: url('footer/city_right.png');
+	margin-top: -100px;
+	right:-20px;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	}
+}
+
+#triangle{
+	opacity: 1;
+}
+#beef_book{
+	background: url('thumbnails/beef_try.jpg');
+	background-size: contain;
+}
+#city_lights{
+	background: url('thumbnails/city_lights.jpg');
+	background-size: contain;
+}
+#evolution{
+	background: url('thumbnails/evolution.jpg');
+	background-size: contain;
+}
+#gas{
+	background: url('thumbnails/gas.jpg');
+	background-size: contain;
+}
+#sound_box{
+	background: url('thumbnails/sound_box.jpg');
+	background-size: contain;
+}
+#city{
+	background: url('thumbnails/city.jpg');
+	background-size: contain;
+}
+#ride_city{
+	background: url('thumbnails/ride_city.jpg');
+	background-size: contain;
+}
+#batlur{
+	background: url('thumbnails/batlur.jpg');
+	background-size: contain;
+}
+#lysee{
+	background: url('thumbnails/lysee.jpg');
+	background-size: contain;
+}
+#niczoe{
+	background: url('thumbnails/niczoe.jpg');
+	background-size: contain;
+}
+#bebe{
+	background: url('thumbnails/bebe.jpg');
+	background-size: contain;
+}
+
+
+a:hover{
+	opacity: 1;
+}
+.projects_main:hover{
+	opacity: 1;
+}
+#footer{
+	position: relative;
+	margin-top: 150px;
+	width: 100%;
+	height:50px;
+	background-color: #58595b;
+}
+#footer_links{
+	font-family: "NobelBook";
+	font-size: 0.8em;
+	color:#a1a1a1;
+	padding-top: 5px;
+}
+
+ 
+@font-face {
+  font-family: "NobelBold";
+  src: url("fonts/nobel/dtlnobelt-bold-webfont.eot");
+  src: url("fonts/nobel/dtlnobelt-bold-webfont.eot") format("embedded-opentype"),
+       url("fonts/nobel/dtlnobelt-bold-webfont.woff") format("woff"),
+       url("fonts/nobel/dtlnobelt-bold-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+ 
+@font-face {
+  font-family: "NobelBook";
+  src: url("fonts/nobel/nobelbook.eot");
+  src: url("fonts/nobel/nobelbook.eot?") format("embedded-opentype"),
+       url("fonts/nobel/nobelbook.woff") format("woff"),
+       url("fonts/nobel/nobelbook.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "AvenirBookOblique";
+  src: url("fonts/avenir/avenir-bookoblique-webfont.eot");
+  src: url("fonts/avenir/avenir-bookoblique-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenir-bookoblique-webfont.woff") format("woff"),
+       url("fonts/avenir/avenir-bookoblique-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url("fonts/avenir/avenir-heavy-webfont.eot");
+  src: url("fonts/avenir/avenir-heavy-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenir-heavy-webfont.woff") format("woff"),
+       url("fonts/avenir/avenir-heavy-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AvenirLight";
+  src: url("fonts/avenir/avenir-light-webfont.eot");
+  src: url("fonts/avenir/avenir-light-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenir-light-webfont.woff") format("woff"),
+       url("fonts/avenir/avenir-light-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AvenirBook";
+  src: url("fonts/avenir/avenirltstd-book-webfont.eot");
+  src: url("fonts/avenir/avenirltstd-book-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenirltstd-book-webfont.woff") format("woff"),
+       url("fonts/avenir/avenirltstd-book-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+ 
+

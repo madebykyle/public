@@ -1,0 +1,166 @@
+/*
+Contact Form by html-form-guide.com
+You can customize all the aspects of the form in this style sheet
+All the style elements use form id selector(notice the #contactus). So, including this
+stylesheet does not affect the other elements at all!
+*/
+
+#contactus fieldset
+{
+   width:60%;
+   padding:20px;
+   background-color: black;
+   opacity: 0.85;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto; 
+   border: none;
+}
+
+#contactus legend, h2
+{
+   font-family : "NobelBold";
+   font-size: 3em;
+   font-weight:bold;
+   color:#9ccba3;
+}
+
+#contactus label
+{
+   font-family : "NobelBold";
+   font-size:0.8em;
+   color: #fff;
+}
+
+#contactus input[type="text"],textarea
+{
+  font-family : "Nobel";
+  font-size: 0.8em;
+  line-height:140%;
+  opacity: 1;
+  color : #000; 
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border : 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    width: 500px;
+
+}
+
+#contactus input[type="text"]
+{
+  height:18px;
+  width: 500px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   border-radius: 5px;   
+  
+}
+
+#contactus #scaptcha
+{
+  width:60px;
+  height:18px;
+}
+
+#contactus input[type="submit"]
+{
+  margin-top: 23px;
+  height:30px;
+  padding-top:11px;
+  padding-bottom: 21px;
+  width: 527px;
+  color: #fff; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-align: center;
+   font-family: "AvenirBook";   
+}
+
+#contactus input[type="submit"]:hover{
+  background-color: #96d7e2;
+}
+
+#contactus textarea
+{
+  height:120px;
+  width: 100%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+   border-radius: 8px;  
+   color: black;
+}
+
+#contactus input[type="text"]:focus,textarea:focus
+{
+  background-color : #96d7e2;
+  border: none;
+  box-shadow: 0;
+}
+
+#contactus .container
+{
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 500px;
+
+}
+
+#contactus .error
+{
+   font-family: Verdana, Arial, sans-serif; 
+   font-size: 0.7em;
+   color: #900;
+   background-color : #ffff00;
+}
+
+#contactus fieldset#antispam
+{
+   padding:2px;
+   border-left:0;
+   border-right:0;
+   border-bottom:0;
+   width:350px;
+}
+
+#contactus fieldset#antispam legend
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.8em;
+   font-weight:bold;
+   color:#333;   
+}
+
+#contactus .short_explanation
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.6em;
+   color:#fff;   
+}
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#contactus .spmhidip
+{
+   display:none;
+   width:10px;
+   height:3px;
+}
+#fg_crdiv
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.3em;
+   opacity: .2;
+   -moz-opacity: .2;
+   filter: alpha(opacity=20);   
+}
+#fg_crdiv p
+{
+    display:none;
+}

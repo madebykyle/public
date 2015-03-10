@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script type="text/javascript" src="gravity.js"></script>
+		<script type="text/javascript" src="stars.js"></script>
+		<title>Gravity</title>
+	</head>
+	<body>
+	<center>
+		<div class ="inputs" id="inputs_bar">
+			<input id="planet1" class="sun" type="range" min="10" max="300" value="" step="1"/>
+			<input id="planet2" class="earth" type="range" min="10" max="300" value="" step="1"  />
+			<input id="planet3" class="moon" type="range" min="10" max="300" value="" step="1"/>
+		</div>
+	</center>
+		<div id="container">
+		<canvas id="stars"></canvas>
+		</div>
+		
+	
+		<div class="planet" id="sun"></div>
+		<div class="planet" id="earth"></div>
+		<div class="planet" id="moon"></div>
+
+
+	</body>
+	</html>

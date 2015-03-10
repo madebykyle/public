@@ -1,0 +1,61 @@
+body{
+	background-color: rgb(54,54,54);
+}
+
+#container{
+
+	width:90%;
+	height: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2.5%;
+	background-color: rgb(0,0,0);
+}
+
+#sentence{
+	margin: 0 auto;
+	clear: both;
+	padding-top: 20%;
+	font-family: 'Nobile', sans-serif;
+	font-weight: 700;
+	font-size: 40;
+	color: white;
+	z-index: 10;
+}
+#countdown{
+	margin: 0 auto;
+	clear: both;
+	padding-top: 1%;
+	float: right;
+	font-family: 'Nobile', sans-serif;
+	font-weight: 700;
+	font-size: 50;
+	color: rgb(54,54,54);
+	z-index: 10;
+}
+
+#reflection{
+	
+	margin: 0 auto;
+	clear: both;
+	font-family: 'Nobile', sans-serif;
+	font-weight: 700;
+	font-size: 40;
+	color: white;
+	opacity: 0.1;
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	margin-top: -15px;
+	z-index: -10;
+}
+.add{
+	padding: 5px;
+	border-radius: 5px;
+	border-color: rgb(0,191,243);
+	font-family: 'Nobile', sans-serif;
+	font-weight: 400;
+	color: rgb(0,191,243);
+	background-color: rgb(0,0,0);
+}

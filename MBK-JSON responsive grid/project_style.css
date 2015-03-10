@@ -1,0 +1,210 @@
+body{
+	margin: 0 auto;
+}
+
+#header{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	clear: both;
+	z-index: 2;
+
+}
+#project_title{
+	float: left;
+	font-family: "AvenirHeavy";
+	font-size: 2em;
+	color: #919191;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#logo_centered{
+	z-index: 3;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(logo.png);
+	background-color: white;
+	background-size: contain;
+	background-position: 0px 60px;
+	background-repeat: no-repeat;
+}
+
+#top_menu{
+	font-family: "AvenirBook";
+	font-weight: 700;
+	font-size: 18px;
+	height:80px;
+	position: relative;
+	float: right;
+}
+.drop_menu {
+	z-index: 2;
+	float: right;
+	padding:0;
+	margin-right: 30px;
+	margin:0;
+	list-style-type:none;
+	
+}
+.drop_menu li { float:left; }
+.drop_menu li a {
+	padding:9px 20px;
+	display:block;
+	color:black;
+	text-decoration:none;
+}
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+	font-size: 12px;
+}
+.drop_menu li:hover { 
+	position:relative; 
+
+ }
+.drop_menu li:hover ul {
+	left:0px;
+	top:35px;
+	padding:0px;
+}
+.drop_menu ul li:hover{
+	background-color: #a9ddf3;
+}
+
+.drop_menu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+}
+#project_wrapper{
+		position: relative;
+		width: 100%;
+		top: -50px;
+		margin-bottom: 0;
+}
+#project_viewer{
+	z-index: 1;
+	width:100%;
+	position: relative;
+	background-color: black
+}
+#overview{
+	margin-top: -51px;
+	width: 100%;
+	overflow: scroll;
+	background-color:#6dcff6;
+	opacity: 0.8;
+	color: white;
+	position: relative;
+	padding: 25px;
+}
+video{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+#overview_text{
+	margin: 0 auto;
+	width: 60%;
+	font-family: "NobelBook";
+	font-size: 1em;
+}
+h1{
+	font-family: "AvenirHeavy";
+	font-size: 2em;
+}
+
+#footer{
+	position: relative;
+	margin-top: 150px;
+	width: 100%;
+	height:50px;
+	background-color: #58595b;
+	
+}
+#footer_links{
+	font-family: "NobelBook";
+	font-size: 0.8em;
+	color:#a1a1a1;
+	padding-top: 5px;
+}
+#city_left{
+	background-image: url('footer/city_left.png');
+	margin-top: -100px;
+	left:5%;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+
+}
+#city_right{
+	background-image: url('footer/city_right.png');
+	margin-top: -100px;
+	right:5%;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+}
+ 
+@font-face {
+  font-family: "NobelBold";
+  src: url("fonts/nobel/dtlnobelt-bold-webfont.eot");
+  src: url("fonts/nobel/dtlnobelt-bold-webfont.eot") format("embedded-opentype"),
+       url("fonts/nobel/dtlnobelt-bold-webfont.woff") format("woff"),
+       url("fonts/nobel/dtlnobelt-bold-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+ 
+@font-face {
+  font-family: "NobelBook";
+  src: url("fonts/nobel/nobelbook.eot");
+  src: url("fonts/nobel/nobelbook.eot?") format("embedded-opentype"),
+       url("fonts/nobel/nobelbook.woff") format("woff"),
+       url("fonts/nobel/nobelbook.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "AvenirBookOblique";
+  src: url("fonts/avenir/avenir-bookoblique-webfont.eot");
+  src: url("fonts/avenir/avenir-bookoblique-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenir-bookoblique-webfont.woff") format("woff"),
+       url("fonts/avenir/avenir-bookoblique-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url("fonts/avenir/avenir-heavy-webfont.eot");
+  src: url("fonts/avenir/avenir-heavy-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenir-heavy-webfont.woff") format("woff"),
+       url("fonts/avenir/avenir-heavy-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AvenirLight";
+  src: url("fonts/avenir/avenir-light-webfont.eot");
+  src: url("fonts/avenir/avenir-light-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenir-light-webfont.woff") format("woff"),
+       url("fonts/avenir/avenir-light-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AvenirBook";
+  src: url("fonts/avenir/avenirltstd-book-webfont.eot");
+  src: url("fonts/avenir/avenirltstd-book-webfont.eot") format("embedded-opentype"),
+       url("fonts/avenir/avenirltstd-book-webfont.woff") format("woff"),
+       url("fonts/avenir/avenirltstd-book-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
